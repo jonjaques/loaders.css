@@ -27,7 +27,7 @@ $pos: 30%;
     border-width: 0px;
     border-radius: 100%;
     animation: spin-rotate 0.6s 0s infinite linear;
-    background-image: linear-gradient(transparent 0%, transparent (100% - $pos), $primary-color $pos, $primary-color 100%);
+    background-image: linear-gradient(transparent 0%, transparent (100% - $pos), $loader-color $pos, $loader-color 100%);
     width: 100%;
     height: 100%;
   }

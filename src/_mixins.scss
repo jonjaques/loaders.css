@@ -1,25 +1,30 @@
+
 @mixin global-bg() {
-  background-color: $primary-color;
+  background-color: $loader-color;
+}
+
+@mixin global-dither() {
+  border: 1px solid $loader-dither-color;
 }
 
 @mixin global-animation() {
   animation-fill-mode: both;
 }
 
-@mixin balls() {
+@mixin balls($scale: $loader-scale) {
   @include global-bg();
 
-  width: $ball-size;
-  height: $ball-size;
+  width: $loader-ball-radius;
+  height: $loader-ball-radius;
   border-radius: 100%;
-  margin: $margin;
+  margin: $loader-margin;
 }
 
-@mixin lines() {
+@mixin lines($scale: $loader-scale) {
   @include global-bg();
 
-  width: $line-width;
-  height: $line-height;
+  width: $loader-line-width;
+  height: $loader-line-height;
   border-radius: 2px;
-  margin: $margin;
+  margin: $loader-margin;
 }

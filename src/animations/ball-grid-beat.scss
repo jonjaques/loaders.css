@@ -22,7 +22,7 @@
 
 .ball-grid-beat {
   @include ball-grid-beat();
-  width: ($ball-size * 3) + $margin * 6;
+  width: ($loader-ball-radius * 3) + $loader-margin * 6;
 
   > div {
     @include balls();

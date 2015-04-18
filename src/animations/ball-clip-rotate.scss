@@ -19,7 +19,7 @@
     @include balls();
     @include global-animation();
 
-    border: 2px solid $primary-color;
+    border: 2px solid $loader-color;
     border-bottom-color: transparent;
     height: 25px;
     width: 25px;

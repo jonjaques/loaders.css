@@ -1,6 +1,9 @@
-$primary-color: #fff !default;
-$ball-size: 15px !default;
-$margin: 2px !default;
-$line-height: 35px !default;
-$line-width: 4px !default;
-
+$loader-color           : #fff !default;
+$loader-margin          : 2px !default;
+$loader-dither-color    : transparent !default;
+$loader-ball-radius     : 15px !default;
+$loader-line-height     : 35px !default;
+$loader-line-width      : 4px !default;
+$loader-scale           : 1.0 !default;
+$loader-sm-scale        : 0.5 !default;
+$loader-lg-scale        : 2.0 !default;

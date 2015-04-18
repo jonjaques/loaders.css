@@ -31,7 +31,7 @@ $size: 10px;
     position: absolute;
     top: -5px;
     left: -5px;
-    background-color: $primary-color;
+    background-color: $loader-color;
     animation: cube-transition 1.6s 0s infinite ease-in-out;
 
     &:last-child {
